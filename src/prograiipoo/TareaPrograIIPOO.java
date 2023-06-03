@@ -1,15 +1,24 @@
 
-package practicapoo;
+package prograiipoo;
 
-import java.util.Scanner;
+import javax.swing.JFrame;
+//import java.util.Scanner;
 
-public class TareaPrograIIPOO {
-
-       /**
-     * @param args the command line arguments
-     */
+public class TareaPrograIIPOO extends JFrame{
+    
+     @SuppressWarnings("UnusedAssignment")
     public static void main(String[] args) {
-       Scanner sn = new Scanner(System.in);
+        CalculadoraInterfaz interfaz = new CalculadoraInterfaz();
+       interfaz.setVisible(true);
+       interfaz.setLocationRelativeTo(null);
+       
+        }
+}
+    
+      
+        
+        
+  /*   Scanner sn = new Scanner(System.in);
        Calculadora calculadora = new Calculadora("JP");
        CalculadoraEspecial CalculadoraEspecial = new CalculadoraEspecial();
        
@@ -87,3 +96,4 @@ public class TareaPrograIIPOO {
         
     }
 }
+*/
